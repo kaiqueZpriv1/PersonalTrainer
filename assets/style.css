@@ -1,26 +1,28 @@
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100;1,200;1,300;1,400;1,500&family=Roboto+Slab:wght@100;200;300;400&family=Source+Code+Pro:ital,wght@1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100;1,200;1,300;1,400;1,500&family=Roboto+Slab:wght@100;200;300;400&family=Source+Code+Pro:ital,wght@1,200;1,300;1,400;1,500;1,600&display=swap");
 
-  
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Roboto Slab', serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Source Code Pro', monospace; */
 
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
+body {
   background: url(./img/imgHeader/background.png) no-repeat;
 }
-.h1Main{
+.h1Main {
   animation: submain 3s infinite linear;
 }
 @keyframes submain {
-  from{text-shadow: 0 0 10px #fafafa;}
-  to{text-shadow: 0 0 10px #ea1212;}
+  from {
+    text-shadow: 0 0 10px #fafafa;
+  }
+  to {
+    text-shadow: 0 0 10px #ea1212;
+  }
 }
