@@ -37,7 +37,7 @@ h1Main.setAttribute("class", "h1Main");
 
 // DECLARACAO DE CONTEUDO
 h1Main.textContent = "Juan Bueno";
-subMain.textContent = "Conquiste a qualidade de vida que sempre sonhou";
+subMain.textContent = "Conquiste a qualidade de vida que sempre sonhou !";
 
 // APPEND CHILD
 //textos
@@ -48,5 +48,24 @@ containerMain.appendChild(DivTextMain);
 main.appendChild(containerMain);
 body.appendChild(main);
 
-// conteudo
+// CONTEUDO
 const conteudo = document.createElement("section");
+const containerConteudo = document.createElement("section");
+const vantagensBox = document.createElement("div");
+let vantagensH3 = document.createElement("h3");
+
+// ATRIBUTOS CONTEUDO
+conteudo.setAttribute("id", "conteudo");
+containerConteudo.setAttribute("id", "container-conteudo");
+vantagensBox.setAttribute("class", "boxVantagens");
+vantagensH3.setAttribute("class", "Titulo-vtg");
+
+// DECLARAÇÃO DE CONTEUDO
+vantagensH3.textContent = "Vantagens de treinar comigo";
+
+// APPEND CHILD
+vantagensBox.appendChild(vantagensH3);
+vantagensBox.appendChild(vantagensP);
+containerConteudo.appendChild(vantagensBox);
+conteudo.appendChild(containerConteudo);
+body.appendChild(conteudo);

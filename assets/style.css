@@ -18,7 +18,7 @@ body{
   background: url(./img/imgHeader/background.png) no-repeat;
 }
 .h1Main{
-  animation: submain 3s infinite;
+  animation: submain 3s infinite linear;
 }
 @keyframes submain {
   from{text-shadow: 0 0 10px #fafafa;}
