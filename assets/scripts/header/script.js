@@ -66,26 +66,27 @@ containerConteudo.appendChild(vantagensH3);
 conteudo.appendChild(containerConteudo);
 body.appendChild(conteudo);
 
-
+// CREATE CONTEUDO 1
 let vantagensBox = document.createElement("section");
 let imgVantagem = document.createElement("img");
 let tituloVantagem = document.createElement("h3");
 let SubVantagem = document.createElement("p");
 
+// ATRIBUTOS
+vantagensBox.setAttribute("id", "vantagem1");
+imgVantagem.setAttribute("id", "imgV1");
+tituloVantagem.setAttribute("id", "tituloV1");
+SubVantagem.setAttribute("id", "subtituloV1");
 
-imgVantagem.src = "./assets/img/imgHeader/musculacaoVant.png"
-imgVantagem.alt = "Aplicativo"
+// DECLARAÇÃO DE CONTEUDO
+imgVantagem.src = "./assets/img/imgHeader/musculacaoVant.png";
+imgVantagem.alt = "Aplicativo";
 
-tituloVantagem.textContent = "Resultados visiveis"
-SubVantagem.textContent = "Tenha resultados visiveis e satisfatorios em menos de 90 dias após o inicio !"
-
-
-
-
-
+tituloVantagem.textContent = "Resultados visiveis";
+SubVantagem.textContent =
+  "Tenha resultados visiveis e satisfatorios em menos de 90 dias após o inicio !";
 
 vantagensBox.appendChild(imgVantagem);
 vantagensBox.appendChild(tituloVantagem);
 vantagensBox.appendChild(SubVantagem);
 containerConteudo.appendChild(vantagensBox);
-

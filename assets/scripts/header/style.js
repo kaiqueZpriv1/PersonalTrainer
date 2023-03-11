@@ -47,29 +47,32 @@ subMain.style.fontFamily = "Roboto";
 subMain.style.fontWeight = "900";
 
 // conteudo
-conteudo.style.background = "#1c1c1c"
-conteudo.style.height = "100vw"
+conteudo.style.background = "#1c1c1c";
+conteudo.style.height = "100vw";
+conteudo.style.marginTop = "100px";
 
-vantagensH3.style.color = "#FAFAFA"
-vantagensH3.style.fontSize = "6.5vw"
-vantagensH3.style.position = "absolute"
-vantagensH3.style.top = "650px"
-vantagensH3.style.left = "30px"
-vantagensH3.style.fontFamily = "Roboto slab"
+vantagensH3.style.color = "#FAFAFA";
+vantagensH3.style.fontSize = "6.5vw";
+vantagensH3.style.position = "absolute";
+vantagensH3.style.top = "730px";
+vantagensH3.style.left = "30px";
+vantagensH3.style.fontFamily = "Roboto slab";
 
 // conteudo box vantagens
 
-vantagensBox.style.position = "absolute"
-vantagensBox.style.top = "750px"
-vantagensBox.style.textAlign = "center"
+vantagensBox.style.position = "absolute";
+vantagensBox.style.top = "850px";
+vantagensBox.style.textAlign = "center";
 
-imgVantagem.style.width = "120px"
+imgVantagem.style.width = "120px";
 
-tituloVantagem.style.color = "#fafafa"
-tituloVantagem.style.fontFamily = "Poppins"
-tituloVantagem.style.fontSize = "5.5vw"
+tituloVantagem.style.color = "#fafafa";
+tituloVantagem.style.fontFamily = "Poppins";
+tituloVantagem.style.fontSize = "5.5vw";
 
-SubVantagem.style.color = "#fafafa"
-SubVantagem.style.fontSize = "4vw"
-SubVantagem.style.fontFamily = "Roboto "
-SubVantagem.style.margin = "0 35px"
+SubVantagem.style.color = "#fafafa";
+SubVantagem.style.fontSize = "4vw";
+SubVantagem.style.fontFamily = "Roboto ";
+SubVantagem.style.margin = "0 35px";
+
+ScrollReveal().reveal("#vantagem1", { delay: 1500 });
