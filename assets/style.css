@@ -5,8 +5,16 @@
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Roboto Slab', serif;
 font-family: 'Roboto', sans-serif;
-font-family: 'Source Code Pro', monospace; */
-
+font-family: 'Source Code Pro', mo = "nospace; */
+::-webkit-scrollbar{
+  background-color: #1c1c1c;
+  width: 12px;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background: #ea1212;
+  border-radius: 50px;
+}
 * {
   margin: 0;
   padding: 0;

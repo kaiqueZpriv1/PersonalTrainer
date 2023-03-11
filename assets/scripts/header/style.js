@@ -18,7 +18,7 @@ subHeader.style.fontSize = "2vw";
 menu.style.width = "45px";
 menu.style.position = "relative";
 menu.style.top = "0px";
-menu.style.left = "270px";
+menu.style.left = "255px";
 
 iconMusculacao.style.position = "absolute";
 iconMusculacao.style.width = "45px";
@@ -47,3 +47,29 @@ subMain.style.fontFamily = "Roboto";
 subMain.style.fontWeight = "900";
 
 // conteudo
+conteudo.style.background = "#1c1c1c"
+conteudo.style.height = "100vw"
+
+vantagensH3.style.color = "#FAFAFA"
+vantagensH3.style.fontSize = "6.5vw"
+vantagensH3.style.position = "absolute"
+vantagensH3.style.top = "650px"
+vantagensH3.style.left = "30px"
+vantagensH3.style.fontFamily = "Roboto slab"
+
+// conteudo box vantagens
+
+vantagensBox.style.position = "absolute"
+vantagensBox.style.top = "750px"
+vantagensBox.style.textAlign = "center"
+
+imgVantagem.style.width = "120px"
+
+tituloVantagem.style.color = "#fafafa"
+tituloVantagem.style.fontFamily = "Poppins"
+tituloVantagem.style.fontSize = "5.5vw"
+
+SubVantagem.style.color = "#fafafa"
+SubVantagem.style.fontSize = "4vw"
+SubVantagem.style.fontFamily = "Roboto "
+SubVantagem.style.margin = "0 35px"

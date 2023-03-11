@@ -51,21 +51,41 @@ body.appendChild(main);
 // CONTEUDO
 const conteudo = document.createElement("section");
 const containerConteudo = document.createElement("section");
-const vantagensBox = document.createElement("div");
 let vantagensH3 = document.createElement("h3");
 
 // ATRIBUTOS CONTEUDO
 conteudo.setAttribute("id", "conteudo");
 containerConteudo.setAttribute("id", "container-conteudo");
-vantagensBox.setAttribute("class", "boxVantagens");
 vantagensH3.setAttribute("class", "Titulo-vtg");
 
 // DECLARAÇÃO DE CONTEUDO
 vantagensH3.textContent = "Vantagens de treinar comigo";
 
 // APPEND CHILD
-vantagensBox.appendChild(vantagensH3);
-vantagensBox.appendChild(vantagensP);
-containerConteudo.appendChild(vantagensBox);
+containerConteudo.appendChild(vantagensH3);
 conteudo.appendChild(containerConteudo);
 body.appendChild(conteudo);
+
+
+let vantagensBox = document.createElement("section");
+let imgVantagem = document.createElement("img");
+let tituloVantagem = document.createElement("h3");
+let SubVantagem = document.createElement("p");
+
+
+imgVantagem.src = "./assets/img/imgHeader/musculacaoVant.png"
+imgVantagem.alt = "Aplicativo"
+
+tituloVantagem.textContent = "Resultados visiveis"
+SubVantagem.textContent = "Tenha resultados visiveis e satisfatorios em menos de 90 dias após o inicio !"
+
+
+
+
+
+
+vantagensBox.appendChild(imgVantagem);
+vantagensBox.appendChild(tituloVantagem);
+vantagensBox.appendChild(SubVantagem);
+containerConteudo.appendChild(vantagensBox);
+
