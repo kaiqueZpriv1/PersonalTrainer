@@ -71,22 +71,45 @@ let vantagensBox = document.createElement("section");
 let imgVantagem = document.createElement("img");
 let tituloVantagem = document.createElement("h3");
 let SubVantagem = document.createElement("p");
+// VANTAGEM 2
+let vantagensBox2 = document.createElement("section");
+let imgVantagem2 = document.createElement("img");
+let tituloVantagem2 = document.createElement("h3");
+let SubVantagem2 = document.createElement("p");
 
-// ATRIBUTOS
+// ATRIBUTOS1
 vantagensBox.setAttribute("id", "vantagem1");
 imgVantagem.setAttribute("id", "imgV1");
 tituloVantagem.setAttribute("id", "tituloV1");
 SubVantagem.setAttribute("id", "subtituloV1");
 
+// ATRIBUTO 2
+vantagensBox2.setAttribute("id", "vantagem2");
+imgVantagem2.setAttribute("id", "imgV2");
+tituloVantagem2.setAttribute("id", "tituloV2");
+SubVantagem2.setAttribute("id", "subtituloV2");
+
 // DECLARAÇÃO DE CONTEUDO
 imgVantagem.src = "./assets/img/imgHeader/musculacaoVant.png";
 imgVantagem.alt = "Aplicativo";
-
 tituloVantagem.textContent = "Resultados visiveis";
 SubVantagem.textContent =
   "Tenha resultados visiveis e satisfatorios em menos de 90 dias após o inicio !";
+
+// DECLARAÇÃO 2
+imgVantagem2.src = "./assets/img/imgHeader/musculacaoVant.png";
+imgVantagem2.alt = "Aplicativo";
+
+tituloVantagem2.textContent = "Prevenção de lesões";
+SubVantagem2.textContent =
+  "Treine com tranquilidade livre de lesões, respeitando os limites do seu corpo !";
 
 vantagensBox.appendChild(imgVantagem);
 vantagensBox.appendChild(tituloVantagem);
 vantagensBox.appendChild(SubVantagem);
 containerConteudo.appendChild(vantagensBox);
+// PUSH 2
+vantagensBox2.appendChild(imgVantagem2);
+vantagensBox2.appendChild(tituloVantagem2);
+vantagensBox2.appendChild(SubVantagem2);
+containerConteudo.appendChild(vantagensBox2);

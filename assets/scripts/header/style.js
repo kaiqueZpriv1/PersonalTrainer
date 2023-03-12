@@ -48,7 +48,7 @@ subMain.style.fontWeight = "900";
 
 // conteudo
 conteudo.style.background = "#1c1c1c";
-conteudo.style.height = "100vw";
+conteudo.style.height = "300vw";
 conteudo.style.marginTop = "100px";
 
 vantagensH3.style.color = "#FAFAFA";
@@ -75,4 +75,18 @@ SubVantagem.style.fontSize = "4vw";
 SubVantagem.style.fontFamily = "Roboto ";
 SubVantagem.style.margin = "0 35px";
 
-ScrollReveal().reveal("#vantagem1", { delay: 1500 });
+// VANTAGEM 2
+vantagensBox2.style.position = "absolute";
+vantagensBox2.style.top = "1100px";
+vantagensBox2.style.textAlign = "center";
+
+imgVantagem2.style.width = "120px";
+
+tituloVantagem2.style.color = "#fafafa";
+tituloVantagem2.style.fontFamily = "Poppins";
+tituloVantagem2.style.fontSize = "5.5vw";
+
+SubVantagem2.style.color = "#fafafa";
+SubVantagem2.style.fontSize = "4vw";
+SubVantagem2.style.fontFamily = "Roboto ";
+SubVantagem2.style.margin = "0 35px";
