@@ -20,6 +20,34 @@ menu.style.position = "relative";
 menu.style.top = "0px";
 menu.style.left = "255px";
 
+menu.addEventListener('click', RevealMenu)
+function RevealMenu() {
+    document.getElementById("revealMenu").style.width = "100%"
+}
+openReveal.style.margin = "10px"
+openReveal.addEventListener('click', openMenu)
+function openMenu() {
+    document.getElementById("revealMenu").style.width = "0"
+}
+
+
+divMenuLinks.style.textAlign = "center"
+divMenuLinks.style.color = "#ff0001"
+divMenuLinks.style.display = "flex"
+divMenuLinks.style.flexDirection = "column"
+divMenuLinks.style.fontFamily = "Roboto slab"
+divMenuLinks.style.fontSize = "7vw"
+divMenuLinks.style.gap = "20px"
+divMenuLinks.style.margin = "auto"
+
+// linkMenu1.style.fontSize = "7vw"
+// linkMenu2.style.fontSize = "3vw"
+// linkMenu3.style.fontSize = "3vw"
+// linkMenu4.style.fontSize = "3vw"
+
+
+
+
 iconMusculacao.style.position = "absolute";
 iconMusculacao.style.width = "45px";
 iconMusculacao.style.top = "10px";
@@ -45,6 +73,12 @@ subMain.style.color = "#FDFDFD";
 subMain.style.textShadow = "0 0 20px #000";
 subMain.style.fontFamily = "Roboto";
 subMain.style.fontWeight = "900";
+
+// vantagem
+
+
+
+//  style 1 e 2
 
 // conteudo
 conteudo.style.background = "#1c1c1c";
