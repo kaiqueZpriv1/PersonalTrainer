@@ -75,14 +75,14 @@ subMain.style.textShadow = "0 0 20px #000";
 subMain.style.fontFamily = "Roboto";
 subMain.style.fontWeight = "900";
 
-// vantagem
+// Vantagem
 
 //  style 1 e 2
 
-// conteudo
-conteudo.style.background = "#1c1c1c";
-conteudo.style.height = "225vw";
-conteudo.style.marginTop = "100px";
+// Vantagem
+Vantagem.style.background = "#1c1c1c";
+Vantagem.style.height = "225vw";
+Vantagem.style.marginTop = "100px";
 
 vantagensH3.style.color = "#FAFAFA";
 vantagensH3.style.fontSize = "6.5vw";
@@ -91,7 +91,7 @@ vantagensH3.style.top = "730px";
 vantagensH3.style.left = "30px";
 vantagensH3.style.fontFamily = "Roboto slab";
 
-// conteudo box vantagens
+// Vantagem box vantagens
 
 vantagensBox.style.position = "absolute";
 vantagensBox.style.top = "850px";
@@ -108,7 +108,7 @@ SubVantagem.style.fontSize = "4vw";
 SubVantagem.style.fontFamily = "Roboto ";
 SubVantagem.style.margin = "0 35px";
 
-// VANTAGEM 2
+// Vantagem 2
 vantagensBox2.style.position = "absolute";
 vantagensBox2.style.top = "1150px";
 vantagensBox2.style.textAlign = "center";
@@ -124,7 +124,7 @@ SubVantagem2.style.fontSize = "4vw";
 SubVantagem2.style.fontFamily = "Roboto ";
 SubVantagem2.style.margin = "0 35px";
 
-// VANTAGEM 3
+// Vantagem 3
 vantagensBox3.style.position = "absolute";
 vantagensBox3.style.top = "1450px";
 vantagensBox3.style.textAlign = "center";
@@ -140,4 +140,12 @@ SubVantagem3.style.fontSize = "4vw";
 SubVantagem3.style.fontFamily = "Roboto ";
 SubVantagem3.style.margin = "0 35px";
 
+// RESULTADOS ================
+resultados.style.height = "100vw";
+resultados.style.background = "#757575";
 
+h3Resultados.style.color = "#FAFAFA";
+h3Resultados.style.textAlign = "center";
+h3Resultados.style.fontSize = "6.5vw";
+h3Resultados.style.fontFamily = "Roboto slab";
+h3Resultados.style.padding = "20px 0";

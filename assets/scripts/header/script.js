@@ -73,7 +73,7 @@ main.setAttribute("id", "main");
 containerMain.setAttribute("id", "conteiner-main");
 h1Main.setAttribute("class", "h1Main");
 
-// DECLARACAO DE CONTEUDO
+// DECLARACAO DE Vantagem
 h1Main.textContent = "Juan Bueno";
 subMain.textContent = "Conquiste a qualidade de vida que sempre sonhou !";
 
@@ -87,25 +87,25 @@ containerMain.appendChild(DivTextMain);
 main.appendChild(containerMain);
 body.appendChild(main);
 
-// CONTEUDO
-const conteudo = document.createElement("section");
-const containerConteudo = document.createElement("section");
+// Vantagem
+const Vantagem = document.createElement("section");
+const containerVantagem = document.createElement("section");
 let vantagensH3 = document.createElement("h3");
 
-// ATRIBUTOS CONTEUDO
-conteudo.setAttribute("id", "conteudo");
-containerConteudo.setAttribute("id", "container-conteudo");
+// ATRIBUTOS Vantagem
+Vantagem.setAttribute("id", "Vantagem");
+containerVantagem.setAttribute("id", "container-Vantagem");
 vantagensH3.setAttribute("class", "Titulo-vtg");
 
-// DECLARAÇÃO DE CONTEUDO
+// DECLARAÇÃO DE Vantagem
 vantagensH3.textContent = "Vantagens de treinar comigo";
 
 // APPEND CHILD
-containerConteudo.appendChild(vantagensH3);
-conteudo.appendChild(containerConteudo);
-body.appendChild(conteudo);
+containerVantagem.appendChild(vantagensH3);
+Vantagem.appendChild(containerVantagem);
+body.appendChild(Vantagem);
 
-// CREATE CONTEUDO 1
+// CREATE Vantagem 1
 let vantagensBox = document.createElement("section");
 let imgVantagem = document.createElement("img");
 let tituloVantagem = document.createElement("h3");
@@ -117,7 +117,7 @@ imgVantagem.setAttribute("id", "imgV1");
 tituloVantagem.setAttribute("id", "tituloV1");
 SubVantagem.setAttribute("id", "subtituloV1");
 
-// DECLARAÇÃO DE CONTEUDO
+// DECLARAÇÃO DE Vantagem
 imgVantagem.src = "./assets/img/imgHeader/musculacaoVant.png";
 imgVantagem.alt = "Aplicativo";
 tituloVantagem.textContent = "Resultados visiveis";
@@ -127,7 +127,7 @@ SubVantagem.textContent =
 vantagensBox.appendChild(imgVantagem);
 vantagensBox.appendChild(tituloVantagem);
 vantagensBox.appendChild(SubVantagem);
-containerConteudo.appendChild(vantagensBox);
+containerVantagem.appendChild(vantagensBox);
 
 // VANTAGEM 2
 let vantagensBox2 = document.createElement("section");
@@ -153,7 +153,7 @@ SubVantagem2.textContent =
 vantagensBox2.appendChild(imgVantagem2);
 vantagensBox2.appendChild(tituloVantagem2);
 vantagensBox2.appendChild(SubVantagem2);
-containerConteudo.appendChild(vantagensBox2);
+containerVantagem.appendChild(vantagensBox2);
 
 // VANTAGEM 2
 let vantagensBox3 = document.createElement("section");
@@ -179,4 +179,27 @@ SubVantagem3.textContent =
 vantagensBox3.appendChild(imgVantagem3);
 vantagensBox3.appendChild(tituloVantagem3);
 vantagensBox3.appendChild(SubVantagem3);
-containerConteudo.appendChild(vantagensBox3);
+containerVantagem.appendChild(vantagensBox3);
+
+const resultados = document.createElement("section");
+const containerResultados = document.createElement("section");
+
+resultados.setAttribute("id", "resultados");
+containerResultados.setAttribute("id", "containerResultados");
+
+let h3Resultados = document.createElement("h3");
+h3Resultados.textContent = "Resultados";
+
+let resultadoBox1 = document.createElement("div");
+let resultadoBox2 = document.createElement("div");
+// push de img e textos box 1
+
+// push de img e textos box 2
+
+// push box dos resultados
+containerResultados.appendChild(resultadoBox1);
+containerResultados.appendChild(resultadoBox2);
+// push section de resultados
+containerResultados.appendChild(h3Resultados);
+resultados.appendChild(containerResultados);
+body.appendChild(resultados);
